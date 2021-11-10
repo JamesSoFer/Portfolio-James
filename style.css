@@ -459,13 +459,13 @@ section .title span::after{
   transform: translateX(-50%);
 }
 .about .about-details .left{
-  width: 45%;
-}
-.about .left img{
+  width: 35%;
   height: 400px;
-  width: 400px;
-  object-fit: cover;
   border-radius: 12px;
+}
+.about .left{
+  background-size: cover;
+  background-image: url("Images/about.png");
 }
 .about-details .right{
   width: 55%;
@@ -477,7 +477,7 @@ section  .topic{
   margin-bottom: 10px;
 }
 .about-details .right p{
-  /* text-align: justify; */
+  text-align: justify;
   line-height: 26px;
   color: white;
 }
